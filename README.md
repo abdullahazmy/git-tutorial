@@ -13,7 +13,7 @@ git show HEAD
 ```
 This command will display detailed information about the commit, including the commit message, author, date, and the changes made in that commit. This can be useful when you want to review the most recent changes or understand the state of your repository.
 
-#### Checking Out a Specific Commit
+#### a. Checking Out a Specific Commit
 
 To move ‘HEAD’ to a specific commit, you can use the `git checkout` command followed by the commit hash or a branch name. For example, to move ‘HEAD’ to a commit with the hash ‘abc123’, you can run:
 ``` bash
@@ -21,3 +21,18 @@ git checkout abc123
 ```
 
 If you don't know how to know the hash, you can use `git log --oneline` you can add any preferrations to it as you like, you can search about them with `git log -h` or 'man git log'
+
+#### b. Moving ‘HEAD’ Relative to the Current Commit
+You can also move ‘HEAD’ to a commit relative to the current commit using the `git checkout` command with the ~ or ^ notation. For example, to move ‘HEAD’ one commit back, you can run:
+``` bash
+git checkout HEAD~
+```
+
+Similarly, to move ‘HEAD’ two commits back, you can run:
+``` bash
+git checkout HEAD~2
+```
+This allows you to quickly navigate through the commit history and switch to a specific commit without specifying the commit hash or branch name explicitly.
+
+---
+
