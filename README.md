@@ -36,3 +36,4 @@ This allows you to quickly navigate through the commit history and switch to a s
 
 ---
 
+### Creating a new branch at HEAD
