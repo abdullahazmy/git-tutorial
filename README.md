@@ -20,4 +20,4 @@ To move ‘HEAD’ to a specific commit, you can use the `git checkout` command 
 git checkout abc123
 ```
 
-If you don't know how to know the hash, you can use `git log --oneline` you can add any preferrations to it as you like, you can search about them with `man git log`
+If you don't know how to know the hash, you can use `git log --oneline` you can add any preferrations to it as you like, you can search about them with `git log -h` or 'man git log'
