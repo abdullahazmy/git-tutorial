@@ -49,3 +49,7 @@ This will create a new branch named ‘new-branch-name’ starting from the comm
 ``` bash
 git checkout new-branh-name
 ```
+
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Graph
