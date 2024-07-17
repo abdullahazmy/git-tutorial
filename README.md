@@ -52,4 +52,4 @@ git checkout new-branh-name
 
 To push the current branch and set the remote as upstream, use
 
-    git push --set-upstream origin Graph
+    git push --set-upstream origin branch-name
