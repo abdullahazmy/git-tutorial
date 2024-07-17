@@ -37,3 +37,15 @@ This allows you to quickly navigate through the commit history and switch to a s
 ---
 
 ### Creating a new branch at HEAD
+
+Creating a new branch at the current commit pointed by ‘HEAD’ is a common operation, especially when you want to start working on a new feature or bug fix. To create a new branch at ‘HEAD’, you can use the following command:
+
+```bash
+git branch new-branch-name
+```
+
+This will create a new branch named ‘new-branch-name’ starting from the commit pointed by ‘HEAD’. You can then switch to the new branch using the git checkout command:
+
+``` bash
+git checkout new-branh-name
+```
